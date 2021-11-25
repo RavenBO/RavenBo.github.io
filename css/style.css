@@ -1,0 +1,189 @@
+*{
+    font-family:'Roboto', sans-serif ;
+}
+header{
+    position: relative;
+}
+nav{
+    /* width: 100%; */    
+    height: 53px;
+    background: #212121;
+    position:fixed;
+}
+.menu{    
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin:0;
+    padding: 16px 70px;
+    
+}
+.menu .menu_link{
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.menu .menu_item{
+    border-right: 2px dotted black ;
+    padding-right: 33px;
+}
+.subheader{
+    position: absolute;
+    width: 100%;
+    min-height: 87px;
+    background:rgba(0,0,0,.6);
+    margin-top: 53px;
+}
+.subheader .subheader_link{
+    display: block;
+    max-width: 100%;
+    margin-top: 20px;
+}
+.subheader .subheader_official{
+    margin-top: 6px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 400;
+    opacity: 0.5;
+}
+.subheader .subheader_phone{
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.subheader .subheader_call{
+    margin-top: 24px;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.subheader .subheader_btn{
+    margin-top: 21px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    font-style: normal;
+    font-weight:400;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    border-radius: 4px;
+    border:none;
+    }
+.promo{
+    min-height: 750px;
+    background:url('../img/bg/promo_bg.png') center center/ cover no-repeat;
+    padding: 203px 0 185px 0;
+}
+.promo .promo_header{
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 60px;
+    margin: 0;
+}
+.promo .promo_subheader{
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 22px;
+}
+.promo .promo_text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height:24px;
+    text-align: center;
+    margin: 0;
+    margin-top: 28px;
+    color: #FFFFFF;
+    width: 985px;
+
+}
+.promo .promo_btn{
+    display: block;
+    margin: 110px auto;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border:none;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+.benefits .benefits_wrapper{
+    margin-top: 36px;
+}
+.benefits .benefits_wrapper .benefits_img{
+    background: #1EACC7;
+    height: 116px;
+    width: 116px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+}
+.benefits .benefits_text {
+    width: 343px;
+}
+.benefits .benefits_wrapper .benefits_text .benefits_desr{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+
+    color: #202020;
+}
+.benefits .benefits_wrapper .benefits_text .benefits_subtitle{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1EACC7;
+}
+.benefits .benefits_title{
+    margin: 25px auto;
+    background:rgba(0, 0, 0, 1);
+    width: 113px;
+    height: 24px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+.benefits .benefits_header{
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+    font-weight: bold;
+    margin-top: 32px;
+}
+.benefits .benefits_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
